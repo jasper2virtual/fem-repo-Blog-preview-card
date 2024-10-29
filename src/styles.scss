@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.text-preset-1{
+    @apply text-2xl font-extrabold tracking-normal;
+    font-family: Figtree;
+}
+
+.text-preset-2{
+    @apply text-base font-medium tracking-normal;
+    font-family: Figtree;
+}
+
+.text-preset-3{
+    @apply text-sm leading-6 font-medium tracking-normal;
+    font-family: Figtree;
+}
+
+.text-preset-3-bold{
+    @extend .text-preset-3;
+    @apply font-extrabold;
+    font-family: Figtree;
+}
+
+.card{
+    @apply max-w-[384px] bg-white p-6 flex flex-col gap-6 border border-gray-950 rounded-[20px] drop-shadow-[8px_8px_black];
+}
+
+.content{
+    @apply flex flex-col gap-3 items-start;
+}
+
+.author{
+    @apply flex gap-3 items-center;
+}
