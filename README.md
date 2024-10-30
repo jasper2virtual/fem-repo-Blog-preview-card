@@ -5,12 +5,12 @@ prepare the environment
 npm i
 ```
 
-in terminal
+dev css
 ```bash
 npm run watch:scss
 ```
 
-in another terminal
+build css
 ```bash
-npm run watch:css
+npm run build:css
 ```

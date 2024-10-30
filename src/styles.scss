@@ -7,18 +7,21 @@
 
 
 .text-preset-1{
-    @apply text-2xl font-extrabold tracking-normal;
+    @apply leading-8 font-extrabold tracking-normal;
     font-family: Figtree;
+    font-size: clamp(1.25rem, 1.179rem + 0.357vw, 1.5rem);
 }
 
 .text-preset-2{
-    @apply text-base font-medium tracking-normal;
+    @apply leading-6 font-medium tracking-normal;
     font-family: Figtree;
+    font-size: clamp(0.875rem, 0.839rem + 0.179vw, 1rem);
 }
 
 .text-preset-3{
-    @apply text-sm leading-6 font-medium tracking-normal;
+    @apply leading-6 font-medium tracking-normal;
     font-family: Figtree;
+    font-size: clamp(0.75rem, 0.714rem + 0.179vw, 0.875rem)
 }
 
 .text-preset-3-bold{
