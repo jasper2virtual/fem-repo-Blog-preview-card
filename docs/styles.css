@@ -581,8 +581,8 @@ video {
   width: 2rem;
 }
 
-.min-w-\[375px\]{
-  min-width: 375px;
+.min-w-\[320px\]{
+  min-width: 320px;
 }
 
 .max-w-\[1440px\]{
@@ -610,6 +610,11 @@ video {
 }
 
 .bg-\[hsl\(47\2c 88\%\2c 63\%\)\]{
+  --tw-bg-opacity: 1;
+  background-color: hsl(47 88% 63% / var(--tw-bg-opacity));
+}
+
+.bg-myYellow{
   --tw-bg-opacity: 1;
   background-color: hsl(47 88% 63% / var(--tw-bg-opacity));
 }
@@ -684,6 +689,20 @@ video {
   display: flex;
   align-items: center;
   gap: 0.75rem;
+}
+
+.hover\:cursor-pointer:hover{
+  cursor: pointer;
+}
+
+.hover\:text-myYellow:hover{
+  --tw-text-opacity: 1;
+  color: hsl(47 88% 63% / var(--tw-text-opacity));
+}
+
+.focus\:text-myYellow:focus{
+  --tw-text-opacity: 1;
+  color: hsl(47 88% 63% / var(--tw-text-opacity));
 }
 
 /*# sourceMappingURL=styles.css.map */

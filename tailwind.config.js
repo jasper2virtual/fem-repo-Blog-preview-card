@@ -4,7 +4,11 @@ module.exports = {
     './docs/**/*.html',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        myYellow:'hsl(47, 88%, 63%)'
+      }
+    },
   },
   plugins: [],
 }
